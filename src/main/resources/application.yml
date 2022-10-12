@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: root
+    password: A@patil16
+    url: jdbc:mysql://localhost:3306/miniproject
+    driver-class-name: com.mysql.jdbc.Driver
+    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+      
+  mail:
+    host: smtp.gmail.com
+    password: A@patil16
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: akshaypatil.atp@gmail.com
